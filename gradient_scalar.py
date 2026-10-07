@@ -46,6 +46,8 @@ plt.tight_layout()
 
 plt.savefig('gradient_exempel1v2.pdf')
 
+print("hello world!")
+
 
 plt.show()
 
