@@ -44,9 +44,14 @@ plt.gca().set_aspect('equal', adjustable='box')
 plt.grid(True, linestyle='--', alpha=0.6)
 plt.tight_layout()
 
-plt.savefig('gradient_exempel1v2.pdf')
+print("Save this figure? y/n")
+response = input()
+response = response.lower().strip()
 
-print("hello world!")
+if(response == "y" or response == "yes"):
+    plt.savefig('gradient_exempel1v2.pdf')
+
+
 
 
 plt.show()
